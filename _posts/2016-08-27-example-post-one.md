@@ -1,9 +1,9 @@
 ---
-title: What was Wayne's World?
+title: 도트 그래픽의 유형
 category: General
 ---
 
-Wayne's World is a 1992 comedy film directed by Penelope Spheeris and starring Mike Myers as Wayne Campbell and Dana Carvey as Garth Algar. The film was adapted from a sketch of the same name on NBC's Saturday Night Live.
+8비트 도트 그래픽이 오늘날까지 유행하는 이유는 추억을 자극하는 감성과 적은 개발 비용으로도 개성을 살릴 수 있는 실용성 덕분입니다. 특히 인디 게임과 웹·앱 디자인 분야에서는 간단한 도트 그림만으로도 명확하고 매력적인 화면을 꾸밀 수 있어 꾸준히 사랑받고 있습니다.
 
 <!-- more -->
 
