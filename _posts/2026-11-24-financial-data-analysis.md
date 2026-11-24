@@ -1,8 +1,7 @@
 
 ---
-title: Python 기반 금융 데이터 분석 및 모멘텀 전략 설계
-categories:
-  - Quantitative Finance
+title: "Python 기반 금융 데이터 분석 및 모멘텀 전략 설계"
+categories: ["Quantitative Finance"]
 ---
 
 ## 프로젝트 개요
