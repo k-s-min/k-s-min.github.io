@@ -39,7 +39,7 @@ collections:
   posts:
     title: Blog # Needed for Siteleaf
     output: true
-    description: "This is merely a demo, find out more [about Garth](about)" # The post list page content
+    description: "도트 그래픽 관련 자료 공유" # The post list page content
 
 # 6. Jekyll collections settings
 defaults:
@@ -58,10 +58,10 @@ defaults:
 
 # 7. Site settings
 encoding: utf-8 # Make sure the encoding is right
-title: "Garth" # Site name or title
+title: "k-s-min" # Site name or title
 logo: "/assets/logo.svg" # Site logo
 # favicon: "/favicon.ico" # Uncomment to add custom favicon, or leave as is to use site logo
-description: "A really basic theme for Jekyll, using the official Jekyll theme implementation" # Site description and default description
-url: "https://garth.darn.es" # Site url
+description: "도트 그래픽 관련 자료 공유" # Site description and default description
+url: "https://k-s-min.github.io" # Site url
 baseurl: ""
-lang: en-GB
+lang: ko-KR
