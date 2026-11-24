@@ -1,11 +1,5 @@
+
 # Site configuration
-# 1. Files excluded from Jekyll builds
-# 2. Installed Gems
-# 3. Gem settings
-# 4. Jekyll settings
-# 5. Collections
-# 6. Jekyll collections settings
-# 7. Site settings
 
 # 1. Files excluded from Jekyll builds
 exclude:
@@ -24,22 +18,22 @@ plugins:
 - jekyll-paginate
 
 # 3. Gem settings
-paginate: 2 # jekyll-paginate > items per page
-paginate_path: page:num # jekyll-paginate > blog page
+paginate: 5
+paginate_path: page:num
 
 # 4. Jekyll settings
 sass:
-  style: compressed # Style compression
-permalink: pretty  # Permalink style (/YYYY/MM/DD/page-name/)
-excerpt_separator: <!-- more --> # Marks end of excerpt in posts
-timezone: Europe/London # Timezone for blog posts and alike
+  style: compressed
+permalink: pretty
+excerpt_separator: <!-- more -->
+timezone: Asia/Seoul
 
 # 5. Collections
 collections:
   posts:
-    title: Blog # Needed for Siteleaf
+    title: Projects
     output: true
-    description: "도트 그래픽 관련 자료 공유" # The post list page content
+    description: "금융 데이터 분석 및 퀀트 투자 전략 연구"
 
 # 6. Jekyll collections settings
 defaults:
@@ -48,20 +42,20 @@ defaults:
       path: ""
       type: pages
     values:
-      layout: page # Default layout
+      layout: page
   -
     scope:
       path: ""
       type: posts
     values:
-      layout: post # Default layout
+      layout: post
 
 # 7. Site settings
-encoding: utf-8 # Make sure the encoding is right
-title: "k-s-min" # Site name or title
-logo: "/assets/logo.svg" # Site logo
-# favicon: "/favicon.ico" # Uncomment to add custom favicon, or leave as is to use site logo
-description: "도트 그래픽 관련 자료 공유" # Site description and default description
-url: "https://k-s-min.github.io" # Site url
+encoding: utf-8
+title: "k-s-min Portfolio"
+# logo: "/assets/logo.svg"
+# favicon: "/favicon.ico"
+description: "Quantitative Finance & Data Analysis"
+url: "https://k-s-min.github.io"
 baseurl: ""
 lang: ko-KR
