@@ -1,6 +1,5 @@
-
 ---
-title: About Me
+title: "About Me"
 ---
 
 ## Introduction | 자기소개
